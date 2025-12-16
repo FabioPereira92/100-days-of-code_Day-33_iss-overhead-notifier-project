@@ -2,7 +2,7 @@ import requests, smtplib, time
 from datetime import datetime
 
 EMAIL = "fabiotestemail484@gmail.com"
-PASSWORD = "nf7hK7<h1tL~"
+PASSWORD = "xwxf gdxs aegd xmub"
 MY_LAT = 51.507351 # Your latitude
 MY_LONG = -0.127758 # Your longitude
 
@@ -43,7 +43,7 @@ while True:
         connection.starttls()
         connection.login(user=EMAIL, password=PASSWORD)
         connection.sendmail(from_addr=EMAIL,
-                            to_addrs="angela@gmail.com",
+                            to_addrs="fabiogcpereira@hotmail.com",
                             msg="Subject: Look up!\n\nThe ISS is above you in the sky.")
 
 
